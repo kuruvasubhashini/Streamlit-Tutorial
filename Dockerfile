@@ -7,6 +7,6 @@ WORKDIR /app
 
 EXPOSE 8502
 
-RUN pip3 install -r requirements.txt
+RUN  pip install --upgrade pip
 
 CMD streamlit run app.py
